@@ -46,6 +46,7 @@ $ ./bdac.py -s -w -f domains.txt
 
 ### Note
 Tested on Ubuntu 18.04
+
 whois has about 1000 requests limit per day
 
 ### TODO
