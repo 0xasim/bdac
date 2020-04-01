@@ -52,3 +52,6 @@ whois has about 1000 requests limit per day
 ### TODO
 handle file path from different directory accross any os
 
+ADD nslookup method
+
+whois method is teerribly slow, try making it asynchronous
