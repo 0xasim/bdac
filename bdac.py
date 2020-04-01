@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--file', '-f', help="Path to file containing domains")
 parser.add_argument('--domains', '-d', help="List of domains", nargs='+')
 parser.add_argument('--socket', '-s', help="Use socket method for checking availability. Note: It return available if it fails to resolve domain names to their namesevers and unavailable if domain resolves (It won't show grabbed domains that are available)", action="store_true")
-parser.add_argument('--whois', '-w', help="Use whois method for checking availability. Note: There are limited tries an IP can have (No official number but about some estimate about 1000/day)", action="store_true")
+parser.add_argument('--whois', '-w', help="Use whois method for checking availability. Note: There are limited tries an IP can have (No official number but some estimate about 1000/day)", action="store_true")
 args = parser.parse_args()
 argsDict= vars(args)
 

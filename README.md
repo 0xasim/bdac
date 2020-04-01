@@ -30,7 +30,7 @@ optional arguments:
                         (It won't show grabbed domains that are available)
   --whois, -w           Use whois method for checking availability. Note:
                         There are limited tries an IP can have (No official
-                        number but about some estimate about 1000/day)
+                        number but some estimate about 1000/day)
 ```
 ### Examples
 ```
