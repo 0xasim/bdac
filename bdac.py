@@ -58,7 +58,7 @@ def usingSocket(domains):
 			print("Some other error Occured in socket")
 
 def usingWhois(domains):
-	print("Using Socket:\n")
+	print("Using Whois:\n")
 	for each in domains:
 		try:
 			sp.check_output('whois %s'%each, shell=True)
