@@ -20,7 +20,7 @@ if len(sys.argv)==1:
 def parseFile(filepath):
 	domains = []
 	try:
-		file = open(filepath, "r")
+		file = open(filepath, "r", encoding="utf-8")
 		readfile = file.readlines()
 	except FileNotFoundError:
 		print("File not found")

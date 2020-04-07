@@ -8,10 +8,18 @@
 
 -pip3
 
+-whois
+
 ### Setup
 > Install requirements first
+For linux
 ```
 $ pip3 install -r requirements.txt
+```
+
+For Windows
+```
+py -m pip install -r requirements.txt
 ```
 
 ### Usage
